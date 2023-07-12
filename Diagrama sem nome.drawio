@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-07-12T16:25:02.132Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="4OWOVvKEQLXKip5-6vzK" version="21.6.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-07-12T16:28:13.696Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="Ve7f80wTKqiLivti5QRQ" version="21.6.2" type="github" pages="2">
   <diagram name="Página-1" id="Lb1ujLw-7j1RdwZlbdgM">
     <mxGraphModel dx="1050" dy="541" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -50,6 +50,80 @@
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="240" y="520" as="sourcePoint" />
             <mxPoint x="300" y="520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="LKTuOAIulFAFiCGgj3Nz" name="Página-2">
+    <mxGraphModel dx="1050" dy="541" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="UxGPHpW7RJHZEiyTemib-1" value="Fazer join das duas tabelas" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="296" y="240" width="204" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="UxGPHpW7RJHZEiyTemib-2" value="Processar dados" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="410" width="180" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="UxGPHpW7RJHZEiyTemib-3" value="Separar em 98 records" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="420" y="550" width="194" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="UxGPHpW7RJHZEiyTemib-4" value="Atualizar CRM com bulkUpdate&lt;br&gt;(Função Deluge)" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="396" y="705" width="198" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="UxGPHpW7RJHZEiyTemib-5" value="Importar dados" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="420" width="200" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="UxGPHpW7RJHZEiyTemib-6" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="UxGPHpW7RJHZEiyTemib-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="480" y="590" as="sourcePoint" />
+            <mxPoint x="290" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UxGPHpW7RJHZEiyTemib-7" value="" style="endArrow=classic;html=1;rounded=0;startArrow=classic;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="360" y="490" as="sourcePoint" />
+            <mxPoint x="490" y="470" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UxGPHpW7RJHZEiyTemib-8" value="" style="endArrow=classic;html=1;rounded=0;startArrow=classic;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="370" y="550" as="sourcePoint" />
+            <mxPoint x="410" y="580" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UxGPHpW7RJHZEiyTemib-9" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="260" y="590" as="sourcePoint" />
+            <mxPoint x="260" y="680" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UxGPHpW7RJHZEiyTemib-10" value="Enviar para CRM" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="700" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="UxGPHpW7RJHZEiyTemib-11" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="330" y="750" as="sourcePoint" />
+            <mxPoint x="390" y="750" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UxGPHpW7RJHZEiyTemib-12" value="API Rigor" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="200" y="140" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="UxGPHpW7RJHZEiyTemib-13" value="API Analytics" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="500" y="140" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="UxGPHpW7RJHZEiyTemib-14" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.945;exitY=0.883;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="UxGPHpW7RJHZEiyTemib-12" target="UxGPHpW7RJHZEiyTemib-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="280" y="260" as="sourcePoint" />
+            <mxPoint x="330" y="210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UxGPHpW7RJHZEiyTemib-15" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.786;entryY=0.082;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="UxGPHpW7RJHZEiyTemib-13" target="UxGPHpW7RJHZEiyTemib-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="470" y="270" as="sourcePoint" />
+            <mxPoint x="520" y="220" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
